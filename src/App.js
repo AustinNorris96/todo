@@ -69,7 +69,7 @@ toggleToDo = todo =>
               value={this.state.newItemText}
               onChange={this.updateNewTextValue}
             />
-            <button className="btn btn-primary m-2" onClick={this.changeStateData}>
+            <button className="btn btn-primary m-2" onClick={this.createNewTodo}>
               Add
             </button>
             <table className="table table-striped table-bordered">
