@@ -14,6 +14,15 @@ export default class App extends Component {
       ]
     };
   }
+  
+  /*  changeStateData = () => {
+    this.setState({
+      userName:
+        this.state.userName === "Austin Norris" ? "Anderew Montz" :
+      "Austin Norris"
+    });
+  };
+  */
 
 updateNewTextValue = event => {
   this.setState({ newItemText: event.target.value });
